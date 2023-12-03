@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#body {
+    height: 100%;
+    width: 100%;
+    background-color:  rgb(57, 146, 91);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#pnl {
+    height: 92vh;
+    width: 175vh;
+    background-color: rgb(233, 247, 247);
+    border-radius: 10px;
+}
+
+#pnlT {
+    height: 60px;
+    width: 100%;
+    background-color:rgb(96, 179, 118) ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0,30%;
+}
+
+.ele{
+    display: flex;
+    gap: 10px;
+}
+
+.box{
+    gap: 10px;
+    height: 30px;
+    width: 100px;
+    background-color: aliceblue;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 100;
+    color: rgb(69, 141, 117);
+}
+
+h2 {
+    font-size: 25px;
+    color: rgb(247, 255, 154);
+}
+
+#pbody {
+    height: calc(100% - 60px);
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:3px;
+
+
+}
+
+.bubble{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(46, 130, 71);
+    color: white;
+}
+
+.bubble:hover {
+    cursor: pointer;
+    background-color: rgb(34, 108, 56);
+}
+
+#gOver{
+    font-size: 100px;
+}
